@@ -1,13 +1,3 @@
 {
-  "$schema": "https://vercel.com/static/schema/v2.json",
-  "build": {
-    "src": "classeur/package.json",
-    "use": "@vercel/next"
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/classeur/$1"
-    }
-  ]
+  "framework": "nextjs"
 }
